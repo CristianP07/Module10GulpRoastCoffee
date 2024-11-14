@@ -1,0 +1,815 @@
+/* see the brand guide for colors, fonts, and images in CodePen: 
+https://docs.google.com/document/d/124Wli0Rxp4GhOrrOijzznbnOfNC9kP8wOVZnPZsR2DE/edit?usp=sharing */
+nav {
+    display: flex;
+    justify-content: space-evenly;
+    height: 50px;  
+    background-color: #F2F2F2;   
+}
+
+#socialMedia {
+    background-color: #F2F2F2;
+    height: 50px;
+    text-align: center;
+    
+}
+
+#socialMedia a {
+    color: black;
+
+}
+
+a .social_media {
+    background-color: #F2F2F2;
+    color: black;
+    display: flex;
+    justify-content: space-around;
+    object-position: center;
+}
+
+#gulp-drinking-coffee {
+    margin: 0%;
+    width: 100%;
+    
+}
+
+#homeParagraphcontainer {
+    background-image: url(images/gulp-coffee-beans.jpg);
+    background-repeat: repeat;
+    display: flex;
+    justify-content: center;
+    height: 800px;
+}
+
+.homeParagraph {
+    width: 50%;
+    background-color: #131D26;
+    margin-right: 100px;
+    margin-left: 100px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+} 
+
+.homeParagraph p {
+    font-weight: 400;
+    text-align: center;
+    color: #F2F2F2;
+}
+
+.homeParagraph a {
+    color: #F2F2F2;
+}
+.headerContainer {
+    display: grid;
+    justify-content: center;
+    align-items: center;
+    background-color: #131D26;
+    height: 400px;
+    background-position: center;
+    background-repeat: no-repeat;
+
+}
+
+#gulp-logo-light {
+    background-size: cover;
+    max-width: fit-content;
+    max-height: 400px;
+}
+
+
+
+.navButtons {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 24px;
+    display: inline-block;
+    max-width: 5%;
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+}
+
+.left {
+    width: 100%;
+}
+
+.right {
+    width: 100%;
+    
+}
+
+
+.farleft {
+    width: 100%;
+}
+
+#container {
+    height: 446px;
+    background-color: #F2F2F2;
+}
+
+h1 {
+    background-color: #D98555;
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 50px;
+    display: flex;
+    justify-content: center;
+    margin: 0px;
+}
+
+.gulp-pouring-coffee-vertical {
+    background-color: #D98555;
+    display: flex;
+    justify-content: flex-start;
+    background-image: url("https://assets.codepen.io/6306176/gulp-menu.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 500px;
+    height: 446px;
+    float: left;
+    margin-right: 30px;
+    margin-left: 0%;
+    padding: 0%;
+}
+
+
+
+p {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 40px;
+    padding: 30px;
+    text-align: center;
+}
+
+p a {
+    text-decoration: underline;
+    color: black;
+}
+
+#container2 {
+    display: flex;
+    height: 335px;
+    background-color: #131D26;
+}
+
+.gulp-coffee-beans {
+    background-image: url("https://assets.codepen.io/6306176/gulp-coffee-beans.jpg");
+    background-repeat: no-repeat;
+    float: right;
+    height: 335px;
+    width: 500px;
+    object-fit: contain;
+}
+
+#ourCoffee {
+    color: #F2F2F2;
+    font-size: 28px;
+    width: 1164px;
+    text-align: center;
+}
+
+#browseContainer {
+    background-color: #F2F2F2;
+    display: flex;
+    height: 300px;
+    align-items: center;
+}
+
+.contactUs {
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    background-color: #D98555;
+    padding: 15px;
+    font-size: 40px;
+    text-align: center;
+    color: #F2F2F2;
+    border: black;
+    border-radius: 10px;
+}
+
+.pour-over {
+    background-image: url("https://assets.codepen.io/6306176/gulp-pouring-coffee-horizontal.jpg");
+    background-repeat: no-repeat;
+    float: left;
+    height: 335px;
+    width: 500px;
+}
+
+#pourOver {
+    color: #F2F2F2;
+    background-color: #D98555;
+    height: 335px;
+    
+}
+
+#pour {
+    font-style: normal;
+    font-weight: 400;
+    height: 335px;
+    width: 1164;
+    text-align: center;
+    padding-top: 60px; 
+}
+
+section {
+    margin-bottom: 10px;
+    background-color: #F2F2F2;
+    
+}
+
+html {
+    background-color: #F2F2F2;
+}
+
+#productContainer {
+    display: flex;
+    height: 363px;
+    justify-content: center;
+    background-color: #131D26;
+}
+
+
+.gulpEspresso {
+    display: block;
+    float: left;
+    height: auto;
+    background-image: url(images/gulp-espresso.jpg);
+    width: 25%;
+    margin-top: 15px;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+
+.productParagraphOne {
+    justify-content: flex-end;
+    background-color: #F2F2F2;
+    margin-right: 20px;
+    width: 25%;
+    height: 333px;
+    margin-bottom: 15px;
+    margin-top: 15px;
+
+
+}
+
+.productParagraphOne h2 {
+    text-align: center;
+    color: black;
+    padding-top: 20px;
+}
+
+
+.productParagraphTwo {
+    height: 358px;
+    background-color: #F2F2F2;
+    width: 500px;
+    flex-direction: center;
+    margin-top: 0px;
+}
+
+.productParagraphTwo p {
+    font-size: 24px;
+    color: black;
+    text-align: center;
+    margin: 0px;
+}
+
+.productParagraphTwo h2 {
+    text-align: center;
+    padding-top: 20px;
+    margin: 0px;
+}
+.productParagraphOne p {
+    font-size: 20px;
+    color: black;
+    margin: 0px;
+    padding: 10px;
+}
+
+.gulpBeans {
+    background-image: url(images/gulp-coffee-beans.jpg);
+}
+
+.productParagraphThree {
+    background-color: #F2F2F2 ;
+    justify-content: center;
+    width: 500px;
+    height: 335px;
+}
+
+.productParagraphThree p {
+    font-size: 20px;
+    text-align: center;
+    margin: 0px;
+    padding-bottom: 5px;
+
+}
+
+.productParagraphThree h2 {
+padding-top: 20px;
+text-align: center;
+}
+
+#productHeader {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+    background-color: #D98555;
+
+}
+
+#tripleContainer {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+height: 358px;
+background-color: #131D26;
+}
+
+.gulpHorizontal {
+background-image: url(images/gulp-pouring-coffee-horizontal.jpg);
+height: 358px;
+width: 500px;
+justify-content: center;
+margin-bottom: 0px;
+}
+
+h2 {
+    font-family: "Poppins", sans-serif;
+    font-weight: 700;
+    font-style: bold;
+    font-size: 30px;
+    margin: 0px;
+}
+
+#roastedCoffee {
+    height: 670px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #131D26;
+    align-items: center;
+}
+
+.beansProduct {
+    background-image: url(images/gulp-coffee-beans.jpg);
+    width: 500px;
+    height: 335px;
+}
+
+.productContact h1 {
+background-color: #131D26;
+color: #F2F2F2;
+}
+
+.productContact {
+    background-color: #131D26;
+}
+
+.productContact p {
+    color: #F2F2F2;
+}
+
+.productContact a {
+    color: #F2F2F2;
+}
+
+@media screen and (max-width: 500px) {
+
+    /* Stack the product container elements vertically */
+    #productContainer {
+        display: flex;
+        flex-direction: column; /* Stack vertically */
+        height: auto; /* Adjust height */
+        width: 100%; /* Ensure it fills the screen width */
+    }
+
+    .gulpEspresso, .productParagraphOne, .gulpHorizontal, .productParagraphTwo, .beansProduct, .productParagraphThree {
+        width: 100%; /* Take full width of the container */
+        height: auto; /* Adjust height */
+        margin: 0 0 15px 0; /* Add margin between items */
+    }
+
+    /* Stack the tripleContainer elements vertically */
+    #tripleContainer {
+        display: flex;
+        flex-direction: column; /* Stack vertically */
+        height: auto; /* Adjust height */
+        width: 100%;
+    }
+
+    /* Stack the roasted coffee elements vertically */
+    #roastedCoffee {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%; /* Take up full width */
+        height: auto; /* Adjust height */
+    }
+
+    nav {
+        display: flex;
+        flex-direction: column;   /* Stack links vertically */
+        align-items: stretch;     /* Stretch links across the container */
+        width: 100%;              /* Ensure nav container takes full width */
+        padding: 0;
+        box-sizing: border-box;   /* Prevent padding from causing overflow */
+        overflow: hidden;         /* Hide any overflow to prevent spilling into other containers */
+        margin: 0;   
+        height: auto;             /* Remove any default margin */
+    }
+
+    /* Styling for each nav button */
+    .navButtons {
+        font-size: 18px;          /* Adjust font size for small screens */
+        padding: 15px;            /* Add padding for clickable space */
+        width: 100%;              /* Make each button take full width */
+        text-align: center;       /* Center the text */
+        display: block;           /* Make links block-level to stack them */
+        margin: 5px 0;            /* Add some margin between links */
+        box-sizing: border-box;   /* Prevent padding from affecting width */
+    }
+
+    /* Adjust navButtons (e.g., farleft, left, etc.) to fit and avoid overflow */
+    .navButtons.farleft,
+    .navButtons.left,
+    .navButtons.middle,
+    .navButtons.right {
+        width: 100%;              /* Ensure all buttons are full width */
+        display: block;           /* Block-level elements to stack */
+        text-align: center;       /* Center the text in each link */
+        margin: 5px 0;            /* Space out links slightly */
+    }
+
+    /* Adjust container for the header image to prevent overflow */
+    #gulp-logo-light {
+        max-width: 80%;           /* Limit the size of the logo */
+        height: auto; 
+                    /* Ensure the height adjusts accordingly */
+    }
+
+    /* Prevent sections from overlapping or pushing into each other */
+    section, #productHeader #productContainer, #tripleContainer, #roastedCoffee {
+        width: 100%;              /* Ensure sections take full width */
+        margin: 0;                /* Reset any margins */
+        padding: 0;               /* Reset padding to prevent overflow */
+        box-sizing: border-box;
+        height: auto;   /* Make sure padding is considered in width */
+    }
+    /* Adjust social media links for small screens */
+    #socialMedia {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        height: auto;
+    }
+
+    #socialMedia a {
+        margin: 5px 0;
+    }
+
+    /* Adjust font sizes for headings */
+    h1, h2 {
+        font-size: 24px; /* Smaller font size */
+    }
+
+    p {
+        font-size: 16px; /* Smaller font size */
+        padding: 15px; /* Adjust padding */
+    }
+
+    /* Adjust contact section layout */
+    .productContact {
+        text-align: center;
+        padding: 15px;
+    }
+
+    .productContact h1 {
+        font-size: 24px; /* Adjust font size */
+    }
+
+    /* Make sure the header image fits better on smaller screens */
+    #gulp-logo-light {
+        max-width: 80%; /* Limit the size of the logo */
+        height: auto;
+    }
+
+    .gulpEspresso {
+        background-image: url(images/gulp-espresso.jpg);
+        background-size: contain;
+        height: 333px;
+    }
+
+    .gulpHorizontal {
+        width: 100%;
+        height: 358px;
+    }
+
+    .beansProduct {
+        width: 100%;
+        height: 335px;
+    }
+
+    section {
+        width: 100%;
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    #container, #container2, #pourOver, #browseContainer {
+        width: 100%;
+        padding: 15px;
+    }
+
+    /* Modify container styles for better responsiveness */
+    #container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: auto;
+    }
+
+    /* Ensure text is centered in container */
+    #container p {
+        font-size: 16px; /* Adjust font size */
+        text-align: center;
+        padding: 15px;
+    }
+
+    #container2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+        background-color: #131D26;
+        height: auto;
+    }
+
+    #ourCoffee {
+        color: #F2F2F2;
+        font-size: 18px;
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    #pourOver {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        background-color: #D98555;
+        height: auto;
+        padding: 15px;
+    }
+
+    .pour-over {
+        width: 100%;
+        height: 200px;
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+
+    #pour {
+        font-size: 16px;
+        text-align: center;
+        padding-top: 20px;
+    }
+
+    /* Browse container style */
+    #browseContainer {
+        background-color: #F2F2F2;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .gulp-coffee-beans {
+        height: 335px;
+    }
+}
+
+@media screen and (max-width: 1200px) {
+
+    /* Stack the product container elements vertically */
+    #productContainer {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center;
+        height: auto;
+        width: 100%; /* Ensure full width */
+        box-sizing: border-box;
+    }
+
+    .gulpEspresso, .productParagraphOne, .gulpHorizontal, .productParagraphTwo, .beansProduct, .productParagraphThree {
+        width: 100%; /* Full width of the container */
+        margin: 15px 0; /* Add margin between items */
+        height: auto; /* Auto-adjust height */
+    }
+
+    /* Stack the tripleContainer elements vertically */
+    #tripleContainer {
+        display: flex;
+        flex-direction: column; /* Stack elements vertically */
+        justify-content: center;
+        align-items: center;
+        width: 100%; /* Ensure it takes full width */
+        margin-top: 15px;
+        height: auto;
+        box-sizing: border-box;
+    }
+
+    /* Stack the roasted coffee elements vertically */
+    #roastedCoffee {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 100%; /* Take full width */
+        height: auto;
+        margin-top: 15px;
+    }
+
+    /* Style for the navigation menu */
+    nav {
+        display: flex;
+        flex-direction: column; /* Stack nav items vertically */
+        align-items: center; /* Center items */
+        width: 100%;
+        padding: 0;
+        box-sizing: border-box;
+        margin: 0;
+        height: auto;
+    }
+
+    /* Styling for each nav button */
+    .navButtons {
+        font-size: 18px; /* Adjust font size for medium screens */
+        padding: 15px;
+        width: 100%; /* Make each button take full width */
+        text-align: center;
+        display: block; /* Block-level element to stack them */
+        margin: 5px 0; /* Add space between links */
+        box-sizing: border-box;
+    }
+
+    /* Adjust for social media container */
+    #socialMedia {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+        width: 100%;
+        height: auto;
+        margin-top: 15px;
+    }
+
+    #socialMedia a {
+        margin: 5px 0;
+    }
+
+    /* Logo adjustment for medium screens */
+    #gulp-logo-light {
+        max-width: 80%; /* Limit the width of the logo */
+        height: auto;
+        margin: 0 auto;
+    }
+
+    /* Adjust layout for paragraphs */
+    p {
+        font-size: 18px; /* Reduce font size for better readability */
+        padding: 20px;
+        text-align: center;
+    }
+
+    h1, h2 {
+        font-size: 24px; /* Adjust font size */
+    }
+
+    .homeParagraph {
+        width: 100%; /* Full width */
+        background-color: #131D26;
+        margin: 0;
+        padding: 20px;
+    }
+
+    /* Adjust containers for sections */
+    section, #productHeader #productContainer, #tripleContainer, #roastedCoffee {
+        width: 100%; /* Ensure sections take full width */
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    /* Adjust product section elements */
+    .gulp-pouring-coffee-vertical, .gulpEspresso, .gulpHorizontal, .beansProduct {
+        width: 100%; /* Ensure images take full width */
+        height: auto; /* Allow images to scale properly */
+    }
+
+    .productParagraphOne, .productParagraphTwo, .productParagraphThree {
+        width: 100%; /* Ensure the text blocks take up full width */
+        margin: 10px 0;
+    }
+
+    .productParagraphOne h2, .productParagraphTwo h2, .productParagraphThree h2 {
+        text-align: center;
+        font-size: 24px;
+        margin: 10px 0;
+    }
+
+    .productParagraphOne p, .productParagraphTwo p, .productParagraphThree p {
+        font-size: 16px;
+        color: black;
+        text-align: center;
+        margin: 0;
+        padding: 15px;
+    }
+
+    /* Contact Us button styling */
+    .contactUs {
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: 400;
+        background-color: #D98555;
+        padding: 15px;
+        font-size: 20px;
+        text-align: center;
+        color: #F2F2F2;
+        border: black;
+        border-radius: 10px;
+        width: 80%; /* Adjust button width */
+        margin: 15px auto;
+    }
+
+    /* Adjust section for contact info */
+    .productContact {
+        text-align: center;
+        background-color: #131D26;
+        padding: 20px;
+        margin-top: 20px;
+        width: 100%;
+    }
+
+    .productContact h1 {
+        font-size: 24px;
+        color: #F2F2F2;
+    }
+
+    .productContact p {
+        font-size: 16px;
+        color: #F2F2F2;
+    }
+
+    .productContact a {
+        color: #F2F2F2;
+        font-size: 18px;
+        text-decoration: none;
+    }
+
+    /* Adjust images inside the sections */
+    .gulp-pouring-coffee-vertical {
+        background-size: contain;
+        width: 100%; /* Ensure it fits the container */
+        height: auto; /* Allow for scaling */
+    }
+
+    .gulpEspresso, .gulpHorizontal, .beansProduct {
+        background-size: contain;
+        width: 100%; /* Ensure images scale properly */
+        height: auto;
+    }
+
+    .productParagraphThree, .productParagraphTwo, .productParagraphOne {
+        width: 100%; /* Ensure all product description areas are full width */
+        margin: 10px 0;
+        padding: 15px;
+    }
+
+    /* Social media links should also stack */
+    #socialMedia a {
+        font-size: 18px; /* Adjust font size */
+        padding: 10px;
+        display: block; /* Make the social media links block level */
+    }
+
+    /* Miscellaneous adjustments */
+    .gulpEspresso, .gulp-pouring-coffee-vertical, .beansProduct, .gulpHorizontal {
+        width: 100%; /* Ensure images inside product sections take full width */
+        height: auto; /* Ensure they scale properly */
+    }
+
+    .productParagraphOne, .productParagraphTwo, .productParagraphThree {
+        text-align: center;
+    }
+}
