@@ -34,7 +34,7 @@ a .social_media {
 }
 
 #homeParagraphcontainer {
-    background-image: url(images/gulp-coffee-beans.jpg);
+    background-image: url(gulp-coffee-beans.jpg);
     background-repeat: repeat;
     display: flex;
     justify-content: center;
@@ -238,7 +238,7 @@ html {
     display: block;
     float: left;
     height: auto;
-    background-image: url(images/gulp-espresso.jpg);
+    background-image: url(gulp-espresso.jpg);
     width: 25%;
     margin-top: 15px;
     margin-left: 20px;
@@ -292,7 +292,7 @@ html {
 }
 
 .gulpBeans {
-    background-image: url(images/gulp-coffee-beans.jpg);
+    background-image: url(gulp-coffee-beans.jpg);
 }
 
 .productParagraphThree {
@@ -334,7 +334,7 @@ background-color: #131D26;
 }
 
 .gulpHorizontal {
-background-image: url(images/gulp-pouring-coffee-horizontal.jpg);
+background-image: url(gulp-pouring-coffee-horizontal.jpg);
 height: 358px;
 width: 500px;
 justify-content: center;
@@ -359,7 +359,7 @@ h2 {
 }
 
 .beansProduct {
-    background-image: url(images/gulp-coffee-beans.jpg);
+    background-image: url(gulp-coffee-beans.jpg);
     width: 500px;
     height: 335px;
 }
@@ -504,7 +504,7 @@ color: #F2F2F2;
     }
 
     .gulpEspresso {
-        background-image: url(images/gulp-espresso.jpg);
+        background-image: url(gulp-espresso.jpg);
         background-size: contain;
         height: 333px;
     }
